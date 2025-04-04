@@ -43,7 +43,7 @@ function BookDetail({ book }) {
           <p>
             <span className="text-white font-bold">Total Price: {book.price * qty}</span>
           </p>
-          <AddToBasket />
+          <AddToBasket book={book} qty={Number(qty)}/>
         </div>
       </div>
     </div>

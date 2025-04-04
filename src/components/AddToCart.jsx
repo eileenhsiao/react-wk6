@@ -33,7 +33,7 @@ export default function AddToBasket({ book, qty }) {
         <div className="toast toast-end">
           <div className="alert">
             <span>
-              {qty} {qty > 1 ? "pieces" : "piece"} of {book.name} {qty > 1 ? "have" : "has"} been added to your cart.
+              {qty} {qty > 1 ? "pieces" : "piece"} of {book.title} {qty > 1 ? "have" : "has"} been added to your cart.
             </span>
           </div>
         </div>
